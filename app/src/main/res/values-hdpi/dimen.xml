@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--240 dpi-->
+<!--Sony xperia T2 ultra rauf-->
+<resources>
+    <dimen name="size50">50sp</dimen>
+    <dimen name="size49">49sp</dimen>
+    <dimen name="size48">48sp</dimen>
+    <dimen name="size47">47sp</dimen>
+    <dimen name="size46">46sp</dimen>
+    <dimen name="size45">45sp</dimen>
+    <dimen name="size44">44sp</dimen>
+    <dimen name="size43">43sp</dimen>
+    <dimen name="size42">42sp</dimen>
+    <dimen name="size41">41sp</dimen>
+    <dimen name="size40">40sp</dimen>
+    <dimen name="size39">39sp</dimen>
+    <dimen name="size38">38sp</dimen>
+    <dimen name="size37">37sp</dimen>
+    <dimen name="size36">36sp</dimen>
+    <dimen name="size35">35sp</dimen>
+    <dimen name="size34">34sp</dimen>
+    <dimen name="size33">33sp</dimen>
+    <dimen name="size32">32sp</dimen>
+    <dimen name="size31">31sp</dimen>
+    <dimen name="size30">30sp</dimen>
+    <dimen name="size29">29sp</dimen>
+    <dimen name="size28">28sp</dimen>
+    <dimen name="size27">27sp</dimen>
+    <dimen name="size26">26sp</dimen>
+    <dimen name="size25">25sp</dimen>
+    <dimen name="size24">24sp</dimen>
+    <dimen name="size23">23sp</dimen>
+    <dimen name="size22">22sp</dimen>
+    <dimen name="size21">21sp</dimen>
+    <dimen name="size20">20sp</dimen>
+    <dimen name="size19">19sp</dimen>
+    <dimen name="size18">18sp</dimen>
+    <dimen name="size17">17sp</dimen>
+    <dimen name="size16">16sp</dimen>
+    <dimen name="size15">15sp</dimen>
+    <dimen name="size14">14sp</dimen>
+    <dimen name="size13">13sp</dimen>
+    <dimen name="size12">12sp</dimen>
+    <dimen name="size11">11sp</dimen>
+    <dimen name="size10">10sp</dimen>
+    <dimen name="size09">9sp</dimen>
+    <dimen name="size08">8sp</dimen>
+    <dimen name="size07">7sp</dimen>
+    <dimen name="size06">6sp</dimen>
+    <dimen name="size05">5sp</dimen>
+    <dimen name="size04">4sp</dimen>
+    <dimen name="size03">3sp</dimen>
+    <dimen name="size02">2sp</dimen>
+    <dimen name="size01">1sp</dimen>
+
+    <dimen name="player_padding_root">25dp</dimen>
+    <dimen name="player_cover_margin">80dp</dimen>
+    <dimen name="baner_square_height">100dp</dimen>
+    <dimen name="baner_square_height_parent">135dp</dimen>
+    <dimen name="baner_rectangle_height">170dp</dimen>
+    <dimen name="baner_rectangle_height_parent">190dp</dimen>
+    <dimen name="episode_image_top_episode">60dp</dimen>
+    <dimen name="search_image_cover">130dp</dimen>
+    <dimen name="search_image_cover2">120dp</dimen>
+    <dimen name="image_top_episode">60dp</dimen>
+    <dimen name="image_tools_banner">200dp</dimen>
+    <dimen name="image_episode_activity">100dp</dimen>
+    <dimen name="app_icon_size">36dp</dimen>
+    <dimen name="player_height">75dp</dimen>
+
+</resources>

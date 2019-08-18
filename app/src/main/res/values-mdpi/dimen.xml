@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--160 dpi-->
+<resources>
+    <dimen name="size50">47sp</dimen>
+    <dimen name="size49">46sp</dimen>
+    <dimen name="size48">45sp</dimen>
+    <dimen name="size47">44sp</dimen>
+    <dimen name="size46">43sp</dimen>
+    <dimen name="size45">42sp</dimen>
+    <dimen name="size44">41sp</dimen>
+    <dimen name="size43">40sp</dimen>
+    <dimen name="size42">39sp</dimen>
+    <dimen name="size41">38sp</dimen>
+    <dimen name="size40">37sp</dimen>
+    <dimen name="size39">36sp</dimen>
+    <dimen name="size38">35sp</dimen>
+    <dimen name="size37">34sp</dimen>
+    <dimen name="size36">33sp</dimen>
+    <dimen name="size35">32sp</dimen>
+    <dimen name="size34">31sp</dimen>
+    <dimen name="size33">30sp</dimen>
+    <dimen name="size32">29sp</dimen>
+    <dimen name="size31">28sp</dimen>
+    <dimen name="size30">27sp</dimen>
+    <dimen name="size29">26sp</dimen>
+    <dimen name="size28">25sp</dimen>
+    <dimen name="size27">24sp</dimen>
+    <dimen name="size26">23sp</dimen>
+    <dimen name="size25">22sp</dimen>
+    <dimen name="size24">21sp</dimen>
+    <dimen name="size23">20sp</dimen>
+    <dimen name="size22">19sp</dimen>
+    <dimen name="size21">18sp</dimen>
+    <dimen name="size20">17sp</dimen>
+    <dimen name="size19">16sp</dimen>
+    <dimen name="size18">15sp</dimen>
+    <dimen name="size17">14sp</dimen>
+    <dimen name="size16">13sp</dimen>
+    <dimen name="size15">12sp</dimen>
+    <dimen name="size14">11sp</dimen>
+    <dimen name="size13">10sp</dimen>
+    <dimen name="size12">9sp </dimen>
+    <dimen name="size11">8sp </dimen>
+    <dimen name="size10">7sp </dimen>
+    <dimen name="size09">6sp </dimen>
+    <dimen name="size08">5sp </dimen>
+    <dimen name="size07">4sp </dimen>
+    <dimen name="size06">3sp </dimen>
+    <dimen name="size05">2sp </dimen>
+    <dimen name="size04">1sp </dimen>
+    <dimen name="size03">1sp </dimen>
+    <dimen name="size02">1sp </dimen>
+    <dimen name="size01">1sp </dimen>
+
+    <dimen name="player_padding_root">25dp</dimen>
+    <dimen name="player_cover_margin">80dp</dimen>
+    <dimen name="baner_square_height">65dp</dimen>
+    <dimen name="baner_square_height_parent">105dp</dimen>
+    <dimen name="baner_rectangle_height">130dp</dimen>
+    <dimen name="baner_rectangle_height_parent">150dp</dimen>
+    <dimen name="episode_image_top_episode">60dp</dimen>
+    <dimen name="search_image_cover">80dp</dimen>
+    <dimen name="search_image_cover2">70dp</dimen>
+    <dimen name="image_top_episode">60dp</dimen>
+    <dimen name="image_tools_banner">200dp</dimen>
+    <dimen name="image_episode_activity">70dp</dimen>
+    <dimen name="app_icon_size">36dp</dimen>
+    <dimen name="player_height">75dp</dimen>
+
+
+
+
+</resources>
