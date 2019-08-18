@@ -6,49 +6,46 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import ir.lococoder.eplayer.R;
 import ir.lococoder.eplayer.common.Common;
 import ir.lococoder.eplayer.common.LAppCompatActivity;
 import ir.lococoder.eplayer.common.LExtractData;
+import ir.lococoder.eplayer.common.LRecyclerStruct;
 import ir.lococoder.eplayer.common.LWS;
-import ir.lococoder.eplayer.common.LWSS;
 
 
 import static ir.lococoder.eplayer.common.Common.setLog;
 
 
 public class MainActivity extends LAppCompatActivity {
-  private String feed = "https://anchor.fm/s/6810cbc/podcast/rss";
-  private JSONObject dataPodcast;
-  private JSONObject receivedData;
-  private String playCount;
-  private String likedCount;
-  private String mal;
-  private String subscribe = "0";
 
-  private JSONObject lastEpisode;
-  private JSONObject rating;
-  private String liked;
   private Ui ui;
   private int color;
+  RecyclerView recycler_music;
+  ArrayList<LRecyclerStruct> recyclerInformation;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     ui = new Ui();
-    new Founder(this)
+    new Founder(MainActivity.this)
       .noActionbar()
       .extractUi(ui)
       .contentView(R.layout.activity_main)
       .requestFeatures()
       .build();
 
-
+    recycler_music=(RecyclerView)findViewById(R.id.recycler_music);
+    recycler_music.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+      recyclerInformation = new ArrayList<>();
     getPodcastData();
   }
 
   private class Ui {
-//  RecyclerView recycler_episodes;
 //  TextView txt_episode_count,txt_show_name;
 //  ImageView img_show;
   }
@@ -71,10 +68,17 @@ public class MainActivity extends LAppCompatActivity {
           extractData.extractReceivedData(data)
             .listener(new LExtractData.Listener() {
               @Override
-              public void isAccepted(String song_list, String billboard, String error_code) {
+              public void isAccepted(final String song_list, final String billboard, String error_code) {
+                runOnUiThread(new Runnable() {
+                  @Override
+                  public void run() {
+
+
                 try {
                   JSONArray songs = new JSONArray(song_list);
                   for(int i=0;i<songs.length();i++){
+
+                  color = i % 2 == 0 ? R.color.colorBackgroundRecyclerLight : R.color.colorBackgroundRecyclerDark;
                     JSONObject song = songs.getJSONObject(i);
                     String special_type = song.getString("special_type");
                     String pic_huge=song.getString("pic_huge");
@@ -115,7 +119,13 @@ public class MainActivity extends LAppCompatActivity {
                     String pic_small=song.getString("pic_small");
                     String album_no=song.getString("album_no");
                     String resource_type_ext=song.getString("resource_type_ext");
-                    String id=song.getString("id");
+                    int id=Integer.parseInt(song.getString("id"));
+
+
+                    recyclerInformation.add(new RecyclerInfo(title,album_title,song_source,pic_small,pic_radio,pic_big,pic_premium,pic_huge,lrclink,id,color));
+                    RecyclerAdapter recyclerAdapter = new RecyclerAdapter(MainActivity.this, recyclerInformation);
+                    recycler_music.setAdapter(recyclerAdapter);
+
                   }
                   JSONObject billboars = new JSONObject(billboard);
                     String billboard_type=billboars.getString("billboard_type");
@@ -135,13 +145,16 @@ public class MainActivity extends LAppCompatActivity {
                     String bg_color=billboars.getString("bg_color");
                     String bg_pic=billboars.getString("bg_pic");
                     String id=billboars.getString("id");
-                    setLog("id",id);
-                    setLog("update_date",update_date);
 
-                setLog("error_code",error_code);
-                  } catch (JSONException e1) {
+
+
+
+
+                } catch (JSONException e1) {
                   e1.printStackTrace();
                 }
+                  }
+                });
               }
 
               @Override
@@ -153,7 +166,6 @@ public class MainActivity extends LAppCompatActivity {
 
         @Override
         public void onFail(int statusCode) {
-          setLog("connection failed :", "asd");
 
         }
       })

@@ -4,6 +4,7 @@
   <color name="colorPrimaryDark">#00574B</color>
   <color name="colorAccent">#D81B60</color>
   <color name="colorEpisodeNumber">#5e5c5b</color>
-
+  <color name="colorBackgroundRecyclerDark">#d5d1c9</color>
+  <color name="colorBackgroundRecyclerLight">#e1e1e1</color>
 
 </resources>

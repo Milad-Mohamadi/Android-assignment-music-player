@@ -30,8 +30,8 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int progress_default_circle_color = 0x7f050085;
-        public static final int progress_default_progress_color = 0x7f050086;
+        public static final int progress_default_circle_color = 0x7f050087;
+        public static final int progress_default_progress_color = 0x7f050088;
     }
     public static final class dimen {
         private dimen() {}

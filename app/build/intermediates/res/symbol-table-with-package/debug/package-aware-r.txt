@@ -695,6 +695,8 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color colorAccent
+color colorBackgroundRecyclerDark
+color colorBackgroundRecyclerLight
 color colorEpisodeNumber
 color colorPrimary
 color colorPrimaryDark
@@ -1352,6 +1354,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recycler_music
 id repeat
 id right
 id right_icon

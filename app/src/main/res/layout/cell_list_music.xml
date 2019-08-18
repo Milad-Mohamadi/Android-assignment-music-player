@@ -57,17 +57,21 @@
           android:textColor="@color/colorEpisodeNumber"
           android:textSize="@dimen/size15"/>
 
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
         <ir.lococoder.eplayer.system.fonts.Bold
-          android:id="@+id/txt_episode_name"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_weight="10"
-          android:gravity="start|center_vertical"
-          android:singleLine="true"
-          android:text="--"
-          android:textAlignment="viewStart"
-          android:textColor="@color/black"
-          android:textSize="@dimen/size14"/>
+            android:id="@+id/txt_episode_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:singleLine="true"
+            android:text="--"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size14"/>
 
         <Space
           android:layout_width="wrap_content"

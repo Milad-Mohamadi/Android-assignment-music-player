@@ -1,35 +1,35 @@
 [
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_book_loading.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\a6177f3f55284a8c7c97e6951f10f8f9\\res\\layout\\book_loading.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\animator\\mtrl_btn_state_list_anim.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -168,40 +168,40 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_tabs_icon_color_selector.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_background_color.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_chip_background_color.xml"
-    },
-    {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_background_color.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_chip_background_color.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_menu_item_action_area.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
@@ -212,16 +212,16 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_l_toast_dark.xml.flat",
@@ -244,16 +244,16 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\aa70c87541e00d052a34d1b27c63dad9\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\aa70c87541e00d052a34d1b27c63dad9\\res\\drawable\\notification_bg.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -320,16 +320,16 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_tabs_ripple_color.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_tabs_ripple_color.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -356,20 +356,20 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right_to_left.xml.flat",
         "source": "C:\\dev\\workspace\\EPlayer\\app\\src\\main\\res\\anim\\slide_right_to_left.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
@@ -380,44 +380,44 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cpb_background.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\e4704c1dfa4ab7e7165caf54be4d70ec\\res\\drawable\\cpb_background.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
@@ -476,24 +476,24 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_text_btn_text_color_selector.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\aa70c87541e00d052a34d1b27c63dad9\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_checked.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\283ae6911b3540dae25ba2fab2ddfa3a\\res\\drawable\\radio_checked.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\aa70c87541e00d052a34d1b27c63dad9\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_color_selector.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_color_selector.xml.flat",
-        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\color\\mtrl_btn_text_color_selector.xml"
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_checked.xml.flat",
+        "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\283ae6911b3540dae25ba2fab2ddfa3a\\res\\drawable\\radio_checked.xml"
     },
     {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",

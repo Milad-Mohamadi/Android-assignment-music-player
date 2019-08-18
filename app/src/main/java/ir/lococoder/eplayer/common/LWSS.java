@@ -172,15 +172,12 @@ public class LWSS {
           String inputLine;
           while ((inputLine = in.readLine()) != null) {
             data += inputLine;
-            setLog("state ", "7");
           }
           if (enableCache) {
-            setLog("state ", "8");
             saveToCache(System.currentTimeMillis(), data);
           }
 
           if (listener != null) {
-            setLog("state ", "9");
             listener.onSuccess(data);
             return;
           }
