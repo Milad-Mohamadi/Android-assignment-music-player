@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\b7b243a4f42f6b0c4028d2a49f8d24f3\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "2",
+                        "startOffsets": "731",
+                        "endLines": "22",
+                        "endColumns": "10",
+                        "endOffsets": "859"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "10",
+                        "endOffsets": "183"
+                    }
+                }
+            ]
+        }
+    ]
+}

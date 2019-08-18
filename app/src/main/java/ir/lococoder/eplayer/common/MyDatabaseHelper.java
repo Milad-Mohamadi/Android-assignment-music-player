@@ -4,6 +4,8 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import ir.lococoder.eplayer.system.Base;
+
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
   public static final String DB_NAME = "lococoder_db.sqlite";

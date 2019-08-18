@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.f2prateek.progressbutton:progressbutton:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7b243a4f42f6b0c4028d2a49f8d24f3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7b243a4f42f6b0c4028d2a49f8d24f3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.f2prateek.progressbutton/progressbutton/2.0.0/b3dfc1d49960e72665d1fa50ab04c6391dfa2f39/progressbutton-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

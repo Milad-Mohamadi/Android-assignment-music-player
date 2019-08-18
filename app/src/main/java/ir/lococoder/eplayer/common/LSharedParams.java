@@ -3,22 +3,22 @@ package ir.lococoder.eplayer.common;
 import android.app.Activity;
 
 import static ir.lococoder.eplayer.common.Common.getSharedParams;
-import static ir.lococoder.eplayer.common.Config.COUNTRY_FA;
-import static ir.lococoder.eplayer.common.Config.LANG_FA;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_country;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_email;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_explorerData;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_firstTime;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_image;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_language;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_level;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_pass;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_phone;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_randomNumber;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_telegram;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_TOKEN;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_type;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_userName;
+import static ir.lococoder.eplayer.system.Config.COUNTRY_FA;
+import static ir.lococoder.eplayer.system.Config.LANG_FA;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_country;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_email;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_explorerData;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_firstTime;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_image;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_language;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_level;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_pass;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_phone;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_randomNumber;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_telegram;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_TOKEN;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_type;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_userName;
 
 public class LSharedParams {
   public String token;

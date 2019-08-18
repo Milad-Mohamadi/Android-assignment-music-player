@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jiang111:CProgressButton:1.2.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8bceef4014ec94b81dec77b172a1814/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8bceef4014ec94b81dec77b172a1814/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jiang111/CProgressButton/1.2.7/f67eec9663dac63cac71208b2c594001dd18c5a3/CProgressButton-1.2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

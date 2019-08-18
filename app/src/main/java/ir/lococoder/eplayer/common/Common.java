@@ -69,22 +69,25 @@ import java.util.regex.Pattern;
 import androidx.core.graphics.drawable.RoundedBitmapDrawable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 import ir.lococoder.eplayer.R;
+import ir.lococoder.eplayer.system.AssetImageReader;
+import ir.lococoder.eplayer.system.Base;
+import ir.lococoder.eplayer.system.PernissionRequestHelper;
 import jp.wasabeef.blurry.Blurry;
 
 import static android.text.Html.fromHtml;
-import static ir.lococoder.eplayer.common.Config.COUNTRY_EN;
-import static ir.lococoder.eplayer.common.Config.COUNTRY_FA;
-import static ir.lococoder.eplayer.common.Config.LANG_EN;
-import static ir.lococoder.eplayer.common.Config.LANG_FA;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_TOKEN;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_email;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_pass;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_phone;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_randomNumber;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_telegram;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_type;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_userId;
-import static ir.lococoder.eplayer.common.Config.SHARAED_PARAMS_userName;
+import static ir.lococoder.eplayer.system.Config.COUNTRY_EN;
+import static ir.lococoder.eplayer.system.Config.COUNTRY_FA;
+import static ir.lococoder.eplayer.system.Config.LANG_EN;
+import static ir.lococoder.eplayer.system.Config.LANG_FA;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_TOKEN;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_email;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_pass;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_phone;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_randomNumber;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_telegram;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_type;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_userId;
+import static ir.lococoder.eplayer.system.Config.SHARAED_PARAMS_userName;
 import static java.lang.Integer.parseInt;
 
 

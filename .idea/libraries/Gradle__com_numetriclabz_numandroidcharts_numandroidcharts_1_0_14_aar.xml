@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.numetriclabz.numandroidcharts:numandroidcharts:1.0.14@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bae48ed3a6746843e1489026ff259be9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bae48ed3a6746843e1489026ff259be9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.numetriclabz.numandroidcharts/numandroidcharts/1.0.14/1136cbc39ce3fca43528d7c8f52133586248d37e/numandroidcharts-1.0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

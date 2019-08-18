@@ -1,0 +1,7 @@
+#Mon Aug 19 00:41:30 IRDT 2019
+base.0=C\:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out

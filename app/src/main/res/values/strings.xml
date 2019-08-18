@@ -9,5 +9,6 @@
   <string name="toast_filter">There is no access to this page with your IP.</string>
   <string name="toast_filter_play">There is no access to play this Episode with your IP.</string>
   <string name="toast_forbiden">Your access level is not allowed.</string>
+  <string name="top_episode">Top Music</string>
 
 </resources>

@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 
 import androidx.annotation.LayoutRes;
 import androidx.appcompat.app.AppCompatActivity;
-
+import ir.lococoder.eplayer.system.LBase;
 
 
 public  class LAppCompatActivity extends AppCompatActivity {
