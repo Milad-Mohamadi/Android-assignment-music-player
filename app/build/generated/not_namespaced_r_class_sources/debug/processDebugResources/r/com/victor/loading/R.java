@@ -44,8 +44,8 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int book_loading = 0x7f0b001e;
-        public static final int newton_cradle_loading = 0x7f0b0032;
+        public static final int book_loading = 0x7f0b0022;
+        public static final int newton_cradle_loading = 0x7f0b0036;
     }
     public static final class string {
         private string() {}

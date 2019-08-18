@@ -30,17 +30,17 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int cpb_blue = 0x7f050034;
-        public static final int cpb_blue_dark = 0x7f050035;
-        public static final int cpb_complete_state_selector = 0x7f050036;
-        public static final int cpb_error_state_selector = 0x7f050037;
-        public static final int cpb_green = 0x7f050038;
-        public static final int cpb_green_dark = 0x7f050039;
-        public static final int cpb_grey = 0x7f05003a;
-        public static final int cpb_idle_state_selector = 0x7f05003b;
-        public static final int cpb_red = 0x7f05003c;
-        public static final int cpb_red_dark = 0x7f05003d;
-        public static final int cpb_white = 0x7f05003e;
+        public static final int cpb_blue = 0x7f050036;
+        public static final int cpb_blue_dark = 0x7f050037;
+        public static final int cpb_complete_state_selector = 0x7f050038;
+        public static final int cpb_error_state_selector = 0x7f050039;
+        public static final int cpb_green = 0x7f05003a;
+        public static final int cpb_green_dark = 0x7f05003b;
+        public static final int cpb_grey = 0x7f05003c;
+        public static final int cpb_idle_state_selector = 0x7f05003d;
+        public static final int cpb_red = 0x7f05003e;
+        public static final int cpb_red_dark = 0x7f05003f;
+        public static final int cpb_white = 0x7f050040;
     }
     public static final class dimen {
         private dimen() {}

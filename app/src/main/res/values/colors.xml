@@ -6,5 +6,7 @@
   <color name="colorEpisodeNumber">#5e5c5b</color>
   <color name="colorBackgroundRecyclerDark">#d5d1c9</color>
   <color name="colorBackgroundRecyclerLight">#e1e1e1</color>
+    <color name="colorBackground">#FFFFFF</color>
+  <color name="colorDraw_chart">#55264b</color>
 
 </resources>

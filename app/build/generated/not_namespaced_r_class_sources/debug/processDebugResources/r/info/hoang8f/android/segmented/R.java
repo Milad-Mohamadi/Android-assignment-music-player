@@ -20,8 +20,8 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int radio_button_selected_color = 0x7f050089;
-        public static final int radio_button_unselected_color = 0x7f05008a;
+        public static final int radio_button_selected_color = 0x7f05008b;
+        public static final int radio_button_unselected_color = 0x7f05008c;
     }
     public static final class dimen {
         private dimen() {}
@@ -33,8 +33,8 @@ public final class R {
         private drawable() {}
 
         public static final int button_text_color = 0x7f07005d;
-        public static final int radio_checked = 0x7f07007e;
-        public static final int radio_unchecked = 0x7f07007f;
+        public static final int radio_checked = 0x7f070088;
+        public static final int radio_unchecked = 0x7f070089;
     }
     public static final class string {
         private string() {}

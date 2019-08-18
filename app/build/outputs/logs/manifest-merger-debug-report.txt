@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\9af2c20e315f8e4b3f95d9d63d7c49b6\AndroidManifest.xml:17:1-24:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\4ea35fda875c75b85d6012e7db3d0fcb\AndroidManifest.xml:2:1-13:12
 MERGED from [com.numetriclabz.numandroidcharts:numandroidcharts:1.0.14] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\bae48ed3a6746843e1489026ff259be9\AndroidManifest.xml:2:1-17:12
@@ -51,20 +51,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\locoCoder\.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\f0e08842652fe91fbf9d60c6d1c0f9ac\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\ddbb247182cff8365b11c1d88f809c09\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\6e4ac4cf2950d6995f20106b837201ac\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:3:11-41
 		INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml
 		INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml
-		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml
-		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:2:11-69
@@ -77,7 +77,7 @@ ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:5:3-76
 	android:name
 		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:5:20-74
 application
-ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:6:3-23:17
+ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:6:3-26:17
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\9af2c20e315f8e4b3f95d9d63d7c49b6\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\9af2c20e315f8e4b3f95d9d63d7c49b6\AndroidManifest.xml:22:5-20
 MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\locoCoder\.gradle\caches\transforms-2\files-2.1\4ea35fda875c75b85d6012e7db3d0fcb\AndroidManifest.xml:11:5-20
@@ -132,6 +132,10 @@ activity#ir.lococoder.eplayer.eplayer.home.MainActivity
 ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:20:5-22:16
 	android:name
 		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:20:15-56
+activity#ir.lococoder.eplayer.eplayer.Player.PlayerActivity
+ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:23:5-25:16
+	android:name
+		ADDED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml:23:15-60
 uses-sdk
 INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\dev\workspace\EPlayer\app\src\main\AndroidManifest.xml

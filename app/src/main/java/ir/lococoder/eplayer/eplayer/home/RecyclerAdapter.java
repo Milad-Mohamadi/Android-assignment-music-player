@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import androidx.recyclerview.widget.RecyclerView;
 import ir.lococoder.eplayer.R;
 import ir.lococoder.eplayer.common.LRecyclerStruct;
+import ir.lococoder.eplayer.eplayer.Player.PlayerActivity;
 
 import static ir.lococoder.eplayer.common.Common.setImageAndCatch;
 
@@ -89,7 +90,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         holder.root.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-//            Intent intent = new Intent(activity, MainActivity.class);
+            Intent intent = new Intent(activity, PlayerActivity.class);
 //            intent.putExtra("feed", value_item.url);
 //            intent.putExtra("position", value_item.position);
 //            intent.putExtra("playCount", value_item.playCount);
@@ -97,8 +98,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 //            intent.putExtra("mal", value_item.mal);
 //            intent.putExtra("liked", value_item.liked);
 //            intent.putExtra("likedCount", value_item.likedCount);
-//            activity.startActivity(intent);
-//            activity.overridePendingTransition( R.anim.slide_down_to_up, R.anim.slide_down_to_up_2);
+            activity.startActivity(intent);
+            activity.overridePendingTransition( R.anim.slide_down_to_up, R.anim.slide_down_to_up_2);
 
           }
         });

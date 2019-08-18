@@ -20,6 +20,9 @@
     <activity android:name=".eplayer.home.MainActivity">
 
     </activity>
+    <activity android:name=".eplayer.Player.PlayerActivity">
+
+    </activity>
   </application>
 
 </manifest>

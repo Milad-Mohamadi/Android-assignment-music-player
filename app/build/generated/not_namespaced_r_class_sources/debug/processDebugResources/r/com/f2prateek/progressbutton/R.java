@@ -30,8 +30,8 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int progress_default_circle_color = 0x7f050087;
-        public static final int progress_default_progress_color = 0x7f050088;
+        public static final int progress_default_circle_color = 0x7f050089;
+        public static final int progress_default_progress_color = 0x7f05008a;
     }
     public static final class dimen {
         private dimen() {}
@@ -41,9 +41,9 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int pin_progress_pinned = 0x7f07007b;
-        public static final int pin_progress_shadow = 0x7f07007c;
-        public static final int pin_progress_unpinned = 0x7f07007d;
+        public static final int pin_progress_pinned = 0x7f070085;
+        public static final int pin_progress_shadow = 0x7f070086;
+        public static final int pin_progress_unpinned = 0x7f070087;
     }
     public static final class style {
         private style() {}
