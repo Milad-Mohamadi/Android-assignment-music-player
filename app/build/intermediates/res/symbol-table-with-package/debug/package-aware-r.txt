@@ -1323,7 +1323,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView28
 id img_back
 id img_back2
@@ -1460,12 +1459,16 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txt_album_title
+id txt_all_rates
 id txt_episode_duration
 id txt_episode_name
 id txt_event
 id txt_number_of_episode
+id txt_rate
 id txt_start_time
 id txt_state
+id txt_title
 id txt_total_time
 id uniform
 id unlabeled

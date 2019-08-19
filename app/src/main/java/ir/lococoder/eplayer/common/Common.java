@@ -1402,10 +1402,10 @@ public class Common extends LAppCompatActivity {
               public void run() {
                 try {
                   Blurry.with(context)
-                    .radius(10)
+                    .radius(5)
                     .async()
-                    .sampling(10)
-                    .color(Color.argb(66, 200, 200, 200))
+                    .sampling(5)
+                    .color(Color.argb(200, 0, 0,0))
                     .capture(imageView)
                     .into(imageView);
                   Animation anim = AnimationUtils.loadAnimation(context, R.anim.fadein);
