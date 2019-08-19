@@ -12,11 +12,11 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int cradle_ball_color = 0x7f0300c2;
-        public static final int loading_color = 0x7f03017a;
-        public static final int loading_speed = 0x7f03017b;
-        public static final int loading_width = 0x7f03017c;
-        public static final int shadow_position = 0x7f0301d6;
+        public static final int cradle_ball_color = 0x7f0300c8;
+        public static final int loading_color = 0x7f030180;
+        public static final int loading_speed = 0x7f030181;
+        public static final int loading_width = 0x7f030182;
+        public static final int shadow_position = 0x7f0301e0;
     }
     public static final class color {
         private color() {}
@@ -45,7 +45,7 @@ public final class R {
         private layout() {}
 
         public static final int book_loading = 0x7f0b0022;
-        public static final int newton_cradle_loading = 0x7f0b0036;
+        public static final int newton_cradle_loading = 0x7f0b0037;
     }
     public static final class string {
         private string() {}
@@ -55,9 +55,9 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] CradleBall = { 0x7f0300c2 };
+        public static final int[] CradleBall = { 0x7f0300c8 };
         public static final int CradleBall_cradle_ball_color = 0;
-        public static final int[] RotateLoading = { 0x7f03017a, 0x7f03017b, 0x7f03017c, 0x7f0301d6 };
+        public static final int[] RotateLoading = { 0x7f030180, 0x7f030181, 0x7f030182, 0x7f0301e0 };
         public static final int RotateLoading_loading_color = 0;
         public static final int RotateLoading_loading_speed = 1;
         public static final int RotateLoading_loading_width = 2;

@@ -186,7 +186,13 @@ attr colorButtonNormal
 attr colorControlActivated
 attr colorControlHighlight
 attr colorControlNormal
+attr colorEmpty
+attr colorEmptyL
+attr colorEmptyR
 attr colorError
+attr colorFill
+attr colorFillL
+attr colorFillR
 attr colorPrimary
 attr colorPrimaryDark
 attr colorSecondary
@@ -450,6 +456,9 @@ attr passwordToggleDrawable
 attr passwordToggleEnabled
 attr passwordToggleTint
 attr passwordToggleTintMode
+attr percent
+attr percentL
+attr percentR
 attr pieInnerCircleRatio
 attr pinned
 attr pinnedDrawable
@@ -468,6 +477,7 @@ attr queryBackground
 attr queryHint
 attr radioButtonStyle
 attr radius
+attr rate
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
@@ -1197,9 +1207,12 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_music_note_black_24dp
 drawable ic_pause_circle_filled_black_24dp
 drawable ic_play_circle_filled_black_24dp
 drawable ic_playlist_play_black_24dp
+drawable ic_seek_bar_background
+drawable ic_seek_bar_play
 drawable ic_seek_thumb
 drawable ic_share_black_24dp
 drawable ic_skip_next_black_24dp
@@ -1225,9 +1238,12 @@ drawable pin_progress_unpinned
 drawable radio_checked
 drawable radio_unchecked
 drawable shape_navigation_player
+drawable shape_seekbar_progress
 drawable shape_toast
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable ui_star_empty
+drawable ui_star_filled
 id ALT
 id CTRL
 id FUNCTION
@@ -1325,18 +1341,18 @@ id ifRoom
 id image
 id imageView28
 id img_back
-id img_back2
-id img_back3
-id img_backward
-id img_center_circular
+id img_comment
 id img_cover_background
 id img_download
 id img_episode
 id img_logo
+id img_mark
 id img_next_track
 id img_play
+id img_playList
 id img_previews_track
 id img_profile
+id img_share
 id info
 id invisible
 id italic
@@ -1382,6 +1398,8 @@ id progressBar7
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
+id ratingbar
 id recycler_music
 id repeat
 id right
@@ -1427,6 +1445,11 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star_1
+id star_2
+id star_3
+id star_4
+id star_5
 id start
 id status_bar_latest_event_content
 id stretch
@@ -1461,6 +1484,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txt_album_title
 id txt_all_rates
+id txt_all_rates2
+id txt_all_rates3
 id txt_episode_duration
 id txt_episode_name
 id txt_event
@@ -1548,6 +1573,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout l_rating_bar
 layout l_toast_dark
 layout l_toast_dark_just_text
 layout mtrl_layout_snackbar
@@ -2220,6 +2246,10 @@ styleable ForegroundLinearLayout android_foreground android_foregroundGravity fo
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
+styleable LProgressCategoryLeft colorEmptyL colorFillL percentL
+styleable LProgressCategoryRight colorEmptyR colorFillR percentR
+styleable LProgressChart colorEmpty colorFill percent
+styleable LRatingBar rate
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

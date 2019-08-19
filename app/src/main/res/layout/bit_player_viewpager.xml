@@ -126,7 +126,7 @@
                         android:layout_width="0dp"
                         android:layout_height="0dp"
                         android:baselineAlignBottom="false"
-                        android:src="@drawable/ic_android_black_24dp"
+                        android:src="@drawable/ic_music_note_black_24dp"
                         app:civ_border_color="#ffffff"
                         app:civ_border_width="16dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,6 +149,30 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="5"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/lin3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -161,24 +185,42 @@
                 android:layout_weight="1"/>
 
             <ir.lococoder.eplayer.system.fonts.Light
+                android:id="@+id/txt_all_rates3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="امتیاز"
-                android:textColor="@android:color/white"/>
-
-            <ir.lococoder.eplayer.system.fonts.Light
-                android:id="@+id/txt_rate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4.7"
+                android:text="رای)"
                 android:textColor="@android:color/white"/>
 
             <ir.lococoder.eplayer.system.fonts.Light
                 android:id="@+id/txt_all_rates"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="(۱۱۵رای)"
+                android:text="114"
                 android:textColor="@android:color/white"/>
+
+            <ir.lococoder.eplayer.system.fonts.Light
+                android:id="@+id/txt_all_rates2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size05"
+                android:text=")"
+                android:textColor="@android:color/white"/>
+
+            <ir.lococoder.eplayer.system.fonts.Bold
+                android:id="@+id/txt_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size02"
+                android:layout_marginRight="@dimen/size02"
+                android:text="4.7"
+                android:textColor="@android:color/white"/>
+
+            <ir.lococoder.eplayer.system.fonts.Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  : امتیاز"
+                android:textColor="@android:color/white"
+                android:textDirection="ltr"/>
 
             <Space
                 android:layout_width="0dp"

@@ -12,20 +12,20 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int cpb_colorIndicator = 0x7f0300b4;
-        public static final int cpb_colorIndicatorBackground = 0x7f0300b5;
-        public static final int cpb_colorProgress = 0x7f0300b6;
-        public static final int cpb_cornerRadius = 0x7f0300b7;
-        public static final int cpb_iconComplete = 0x7f0300b8;
-        public static final int cpb_iconError = 0x7f0300b9;
-        public static final int cpb_paddingProgress = 0x7f0300ba;
-        public static final int cpb_selectorComplete = 0x7f0300bb;
-        public static final int cpb_selectorError = 0x7f0300bc;
-        public static final int cpb_selectorIdle = 0x7f0300bd;
-        public static final int cpb_textComplete = 0x7f0300be;
-        public static final int cpb_textError = 0x7f0300bf;
-        public static final int cpb_textIdle = 0x7f0300c0;
-        public static final int cpb_textProgress = 0x7f0300c1;
+        public static final int cpb_colorIndicator = 0x7f0300ba;
+        public static final int cpb_colorIndicatorBackground = 0x7f0300bb;
+        public static final int cpb_colorProgress = 0x7f0300bc;
+        public static final int cpb_cornerRadius = 0x7f0300bd;
+        public static final int cpb_iconComplete = 0x7f0300be;
+        public static final int cpb_iconError = 0x7f0300bf;
+        public static final int cpb_paddingProgress = 0x7f0300c0;
+        public static final int cpb_selectorComplete = 0x7f0300c1;
+        public static final int cpb_selectorError = 0x7f0300c2;
+        public static final int cpb_selectorIdle = 0x7f0300c3;
+        public static final int cpb_textComplete = 0x7f0300c4;
+        public static final int cpb_textError = 0x7f0300c5;
+        public static final int cpb_textIdle = 0x7f0300c6;
+        public static final int cpb_textProgress = 0x7f0300c7;
     }
     public static final class color {
         private color() {}
@@ -69,7 +69,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] CircularProgressButton = { 0x7f0300b4, 0x7f0300b5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 0x7f0300bd, 0x7f0300be, 0x7f0300bf, 0x7f0300c0, 0x7f0300c1 };
+        public static final int[] CircularProgressButton = { 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 0x7f0300bd, 0x7f0300be, 0x7f0300bf, 0x7f0300c0, 0x7f0300c1, 0x7f0300c2, 0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7 };
         public static final int CircularProgressButton_cpb_colorIndicator = 0;
         public static final int CircularProgressButton_cpb_colorIndicatorBackground = 1;
         public static final int CircularProgressButton_cpb_colorProgress = 2;

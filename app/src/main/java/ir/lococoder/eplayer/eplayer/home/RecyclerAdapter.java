@@ -70,7 +70,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 //        setJustify(context,holder.root_description,value_item.description);
         holder.txt_number_of_episode.setText(value_item.description);
         holder.txt_episode_duration.setText(value_item.id+"");
-        setImageAndCatch(activity, value_item.radioPic, holder.img_episode, R.drawable.ic_error_outline_black_24dp, 80, 5f);
+        setImageAndCatch(activity, value_item.radioPic, holder.img_episode, R.drawable.ic_music_note_black_24dp, 80, 5f);
 
 //        Glide.with(context)
 //          .load(value_item.image)

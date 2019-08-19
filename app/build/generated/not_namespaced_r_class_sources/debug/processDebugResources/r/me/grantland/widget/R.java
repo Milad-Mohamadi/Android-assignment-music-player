@@ -12,14 +12,14 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int minTextSize = 0x7f03018a;
-        public static final int precision = 0x7f0301a5;
-        public static final int sizeToFit = 0x7f0301e0;
+        public static final int minTextSize = 0x7f030190;
+        public static final int precision = 0x7f0301ae;
+        public static final int sizeToFit = 0x7f0301ea;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] AutofitTextView = { 0x7f03018a, 0x7f0301a5, 0x7f0301e0 };
+        public static final int[] AutofitTextView = { 0x7f030190, 0x7f0301ae, 0x7f0301ea };
         public static final int AutofitTextView_minTextSize = 0;
         public static final int AutofitTextView_precision = 1;
         public static final int AutofitTextView_sizeToFit = 2;

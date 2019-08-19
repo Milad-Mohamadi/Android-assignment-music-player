@@ -12,10 +12,10 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int sc_border_width = 0x7f0301c2;
-        public static final int sc_checked_text_color = 0x7f0301c3;
-        public static final int sc_corner_radius = 0x7f0301c4;
-        public static final int sc_tint_color = 0x7f0301c5;
+        public static final int sc_border_width = 0x7f0301cc;
+        public static final int sc_checked_text_color = 0x7f0301cd;
+        public static final int sc_corner_radius = 0x7f0301ce;
+        public static final int sc_tint_color = 0x7f0301cf;
     }
     public static final class color {
         private color() {}
@@ -33,8 +33,8 @@ public final class R {
         private drawable() {}
 
         public static final int button_text_color = 0x7f07005d;
-        public static final int radio_checked = 0x7f070088;
-        public static final int radio_unchecked = 0x7f070089;
+        public static final int radio_checked = 0x7f07008b;
+        public static final int radio_unchecked = 0x7f07008c;
     }
     public static final class string {
         private string() {}
@@ -49,7 +49,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] SegmentedGroup = { 0x7f0301c2, 0x7f0301c3, 0x7f0301c4, 0x7f0301c5 };
+        public static final int[] SegmentedGroup = { 0x7f0301cc, 0x7f0301cd, 0x7f0301ce, 0x7f0301cf };
         public static final int SegmentedGroup_sc_border_width = 0;
         public static final int SegmentedGroup_sc_checked_text_color = 1;
         public static final int SegmentedGroup_sc_corner_radius = 2;

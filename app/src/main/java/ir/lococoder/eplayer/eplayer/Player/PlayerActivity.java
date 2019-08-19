@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -18,20 +19,24 @@ import java.io.IOException;
 import ir.lococoder.eplayer.R;
 import ir.lococoder.eplayer.common.Common;
 import ir.lococoder.eplayer.common.LAppCompatActivity;
+import ir.lococoder.eplayer.common.LRatingBar;
 
 import static ir.lococoder.eplayer.common.Common.convertMilliSecToHMS;
+import static ir.lococoder.eplayer.common.Common.setLog;
 import static ir.lococoder.eplayer.common.Common.toastFilterPlayer;
+import static ir.lococoder.eplayer.common.Common.toastWaiting;
 import static ir.lococoder.eplayer.eplayer.home.MainActivity.songs;
 
 public class PlayerActivity extends LAppCompatActivity {
-  public static   MediaPlayer mediaPlayer;
+  public static MediaPlayer mediaPlayer;
 
   private Ui ui;
   private int position;
   private JSONObject song;
-  ImageView img_next_track, img_previews_track,img_play,img_profile,img_background;
-  TextView txt_total_time,txt_start_time,txt_title,txt_album_title,txt_all_rates,txt_rate;
+  ImageView img_next_track, img_previews_track, img_play, img_profile, img_background, img_back, img_share, img_mark, img_comment, img_playList;
+  TextView txt_total_time, txt_start_time, txt_title, txt_album_title, txt_all_rates, txt_rate;
   SeekBar seekBar;
+   RatingBar ratingBar;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -44,34 +49,96 @@ public class PlayerActivity extends LAppCompatActivity {
       .requestFeatures()
       .build();
 
-    img_next_track=(ImageView)findViewById(R.id.img_next_track);
-    img_previews_track=(ImageView)findViewById(R.id.img_previews_track);
-    img_play=(ImageView)findViewById(R.id.img_play);
-    img_profile=(ImageView)findViewById(R.id.img_profile);
-    img_background=(ImageView)findViewById(R.id.img_cover_background);
-    txt_title=(TextView) findViewById(R.id.txt_title);
-    txt_album_title=(TextView) findViewById(R.id.txt_album_title);
-    txt_all_rates=(TextView) findViewById(R.id.txt_all_rates);
-    txt_rate=(TextView) findViewById(R.id.txt_rate);
-    txt_total_time=(TextView) findViewById(R.id.txt_total_time);
-    txt_start_time=(TextView) findViewById(R.id.txt_start_time);
-    seekBar=(SeekBar) findViewById(R.id.seekBar);
-getBundle();
+    playAndPauseSong();
+    img_next_track = (ImageView) findViewById(R.id.img_next_track);
+    img_previews_track = (ImageView) findViewById(R.id.img_previews_track);
+    img_play = (ImageView) findViewById(R.id.img_play);
+    ratingBar = (RatingBar) findViewById(R.id.ratingBar);
+
+    img_back = (ImageView) findViewById(R.id.img_back);
+    img_share = (ImageView) findViewById(R.id.img_share);
+    img_mark = (ImageView) findViewById(R.id.img_mark);
+    img_playList = (ImageView) findViewById(R.id.img_playList);
+    img_comment = (ImageView) findViewById(R.id.img_comment);
+    img_profile = (ImageView) findViewById(R.id.img_profile);
+    img_background = (ImageView) findViewById(R.id.img_cover_background);
+    txt_title = (TextView) findViewById(R.id.txt_title);
+    txt_album_title = (TextView) findViewById(R.id.txt_album_title);
+    txt_all_rates = (TextView) findViewById(R.id.txt_all_rates);
+    txt_rate = (TextView) findViewById(R.id.txt_rate);
+    txt_total_time = (TextView) findViewById(R.id.txt_total_time);
+    txt_start_time = (TextView) findViewById(R.id.txt_start_time);
+    seekBar = (SeekBar) findViewById(R.id.seekBar);
+
+    getBundle();
     setData();
-
-
 
 
     img_next_track.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        if (position<songs.length()-1){
-          position+=1;
-        }else if (position==songs.length()-1){
-          position=0;
+        if (position < songs.length() - 1) {
+          position += 1;
+        } else if (position == songs.length() - 1) {
+          position = 0;
         }
+        playAndPauseSong();
         setData();
 
+      }
+    });
+    img_back.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        onBackPressed();
+
+      }
+    });
+    img_mark.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        runOnUiThread(new Runnable() {
+          @Override
+          public void run() {
+            toastWaiting(PlayerActivity.this);
+
+          }
+        });
+      }
+    });
+    img_playList.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        runOnUiThread(new Runnable() {
+          @Override
+          public void run() {
+            toastWaiting(PlayerActivity.this);
+
+          }
+        });
+      }
+    });
+    img_comment.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        runOnUiThread(new Runnable() {
+          @Override
+          public void run() {
+            toastWaiting(PlayerActivity.this);
+
+          }
+        });
+      }
+    });
+    img_share.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+        sharingIntent.setType("text/plain");
+        String shareBodyText = "" +
+          "http://khaneEqtesad.com/";
+        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
+        startActivity(Intent.createChooser(sharingIntent, "Sharing Option"));
       }
     });
 
@@ -85,11 +152,13 @@ getBundle();
     img_previews_track.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-       if (position>0){
-         position-=1;
-       }else if (position==0){
-         position=songs.length();
-       }
+        if (position > 0) {
+          position -= 1;
+        } else if (position == 0) {
+          position = songs.length();
+        }
+        playAndPauseSong();
+
         setData();
 
       }
@@ -98,7 +167,7 @@ getBundle();
 
   private void setData() {
     try {
-      song=songs.getJSONObject(position);
+      song = songs.getJSONObject(position);
       String hugePic = song.getString("pic_huge");
       String bigPic = song.getString("pic_big");
       String title = song.getString("title");
@@ -106,8 +175,9 @@ getBundle();
       String allRate = song.getString("all_rate");
       String bitrate_id = song.getString("bitrate_id");
       String songSource = song.getString("song_source");
-      Common.setBlurImageAfterDownloadWithGlide(PlayerActivity.this,hugePic,img_background,R.drawable.ic_android_black_24dp);
-      Common.setImageAndCatch(PlayerActivity.this,hugePic,img_profile,R.drawable.ic_android_black_24dp,400,0);
+      Common.setBlurImageAfterDownloadWithGlide(PlayerActivity.this, hugePic, img_background, R.drawable.ic_android_black_24dp);
+      Common.setImageAndCatch(PlayerActivity.this, hugePic, img_profile, R.drawable.ic_music_note_black_24dp, 400, 0);
+      ratingBar.setRating(Float.parseFloat(bitrate_id));
       txt_title.setText(title);
       txt_album_title.setText(titleAlbum);
       txt_all_rates.setText(allRate);
@@ -125,9 +195,8 @@ getBundle();
         seekBar.setProgress(mediaPlayer.getCurrentPosition());
         img_play.setImageResource(R.drawable.ic_play_circle_filled_black_24dp);
 //        endTime = mediaPlayer.getCurrentPosition() + "";
-      }
-      if (!mediaPlayer.isPlaying()) {
-         txt_start_time.setText(convertMilliSecToHMS(mediaPlayer.getCurrentPosition()));
+      } else if (!mediaPlayer.isPlaying()) {
+        txt_start_time.setText(convertMilliSecToHMS(mediaPlayer.getCurrentPosition()));
         img_play.setImageResource(R.drawable.ic_pause_circle_filled_black_24dp);
         mediaPlayer.setVolume(0.5f, 0.5f);
         mediaPlayer.setLooping(false);
@@ -141,6 +210,7 @@ getBundle();
       e.printStackTrace();
     }
   }
+
   private Runnable runnable = new Runnable() {
     @Override
     public void run() {
@@ -159,6 +229,7 @@ getBundle();
       }
     }
   };
+
   private void getBundle() {
     Intent intent = getIntent();
     Bundle bundle = intent.getExtras();
@@ -201,9 +272,10 @@ getBundle();
   @Override
   public void onBackPressed() {
     super.onBackPressed();
-    overridePendingTransition( R.anim.slide_up_to_down, R.anim.slide_up_to_down_2);
+    overridePendingTransition(R.anim.slide_up_to_down, R.anim.slide_up_to_down_2);
 
   }
+
   private void seekBarTouch() {
     seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
       @Override
@@ -220,7 +292,7 @@ getBundle();
         int labelWidth = txt_start_time.getWidth();
         int val = (int) Math.round(percent * (seekWidth - 2 * offset));
         if (progress > 0 && mediaPlayer != null && !mediaPlayer.isPlaying()) {
-          img_play.setImageResource(R.drawable.ic_playlist_play_black_24dp);
+          img_play.setImageResource(R.drawable.ic_play_circle_filled_black_24dp);
           seekBar.setProgress(mediaPlayer.getCurrentPosition());
         }
       }

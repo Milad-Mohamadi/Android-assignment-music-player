@@ -1189,8 +1189,6 @@ public class Common extends LAppCompatActivity {
 
   public static void toastWaiting(final Activity activity) {
     try {
-
-
       activity.runOnUiThread(new Runnable() {
         @Override
         public void run() {
@@ -1386,7 +1384,7 @@ public class Common extends LAppCompatActivity {
       Glide.with(context)
         .load(uri)
         .diskCacheStrategy(DiskCacheStrategy.ALL)
-        .placeholder(placeHolder)
+        .placeholder(R.color.colorPrimary)
         .centerCrop()
         .override(500, 500)
         .listener(new RequestListener<String, GlideDrawable>() {

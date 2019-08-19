@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LRatingBar">
+        <attr name="rate" format="integer">
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LProgressChart">
+        <attr name="colorFill" format="integer"/>
+        <attr name="colorEmpty" format="integer"/>
+        <attr name="percent" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="LProgressCategoryRight">
+        <attr name="colorFillR" format="integer"/>
+        <attr name="colorEmptyR" format="integer"/>
+        <attr name="percentR" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="LProgressCategoryLeft">
+        <attr name="colorFillL" format="integer"/>
+        <attr name="colorEmptyL" format="integer"/>
+        <attr name="percentL" format="integer"/>
+    </declare-styleable>
+</resources>

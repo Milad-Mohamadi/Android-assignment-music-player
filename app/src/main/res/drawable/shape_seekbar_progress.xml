@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:gravity="center_vertical"
+        android:drawable="@drawable/ic_seek_bar_background"
+        />
+    <item android:id="@android:id/progress"
+        android:gravity="center_vertical"
+        >
+        <scale
+            android:drawable="@drawable/ic_seek_bar_play"
+            android:scaleWidth="100%"/>
+    </item>
+            <!--android:scaleHeight="8dp"-->
+</layer-list>

@@ -19,12 +19,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:maxHeight="13dp"
-            android:minHeight="5dp"
-            android:paddingStart="16dp"
+            android:maxHeight="4dp"
+            android:minHeight="1dp"
+            android:paddingStart="9dp"
             android:paddingTop="0dp"
-            android:paddingEnd="16dp"
+            android:paddingEnd="9dp"
             android:splitTrack="false"
+            android:progressDrawable="@drawable/shape_seekbar_progress"
             android:thumb="@drawable/ic_seek_thumb"/>
 
         <LinearLayout
@@ -32,7 +33,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <ir.lococoder.eplayer.system.fonts.Meduim
@@ -54,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="loading..."
-                android:textColor="#9FB9B2"
+                android:textColor="#ADADAD"
                 android:textSize="@dimen/size10"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -73,7 +73,7 @@
               android:layout_weight="0.5"/>
 
             <ImageView
-                android:id="@+id/img_backward"
+                android:id="@+id/img_playList"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:contentDescription=""
@@ -83,6 +83,7 @@
                 android:id="@+id/img_previews_track"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="0.2"
                 android:contentDescription=""
                 android:padding="@dimen/size10"
                 app:srcCompat="@drawable/ic_skip_previous_black_24dp"/>
@@ -91,7 +92,7 @@
                 android:id="@+id/img_play"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1.53"
+                android:layout_weight="1.2"
                 android:contentDescription=""
                 app:srcCompat="@drawable/ic_play_circle_filled_black_24dp"/>
 
@@ -99,12 +100,13 @@
                 android:id="@+id/img_next_track"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="0.2"
                 android:contentDescription=""
                 android:padding="@dimen/size10"
                 app:srcCompat="@drawable/ic_skip_next_black_24dp"/>
 
             <ImageView
-                android:id="@+id/img_center_circular"
+                android:id="@+id/img_comment"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:contentDescription=""

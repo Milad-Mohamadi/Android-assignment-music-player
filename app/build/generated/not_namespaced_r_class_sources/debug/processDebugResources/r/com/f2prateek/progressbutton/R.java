@@ -17,15 +17,15 @@ public final class R {
         public static final int animationSpeed = 0x7f03002b;
         public static final int animationStripWidth = 0x7f03002c;
         public static final int circleColor = 0x7f03007e;
-        public static final int innerSize = 0x7f03011c;
-        public static final int max = 0x7f030181;
-        public static final int pinned = 0x7f0301a0;
-        public static final int pinnedDrawable = 0x7f0301a1;
-        public static final int progress = 0x7f0301a8;
-        public static final int progressButtonStyle = 0x7f0301ab;
-        public static final int progressColor = 0x7f0301ac;
-        public static final int shadowDrawable = 0x7f0301d5;
-        public static final int unpinnedDrawable = 0x7f030253;
+        public static final int innerSize = 0x7f030122;
+        public static final int max = 0x7f030187;
+        public static final int pinned = 0x7f0301a9;
+        public static final int pinnedDrawable = 0x7f0301aa;
+        public static final int progress = 0x7f0301b1;
+        public static final int progressButtonStyle = 0x7f0301b4;
+        public static final int progressColor = 0x7f0301b5;
+        public static final int shadowDrawable = 0x7f0301df;
+        public static final int unpinnedDrawable = 0x7f03025d;
     }
     public static final class color {
         private color() {}
@@ -41,9 +41,9 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int pin_progress_pinned = 0x7f070085;
-        public static final int pin_progress_shadow = 0x7f070086;
-        public static final int pin_progress_unpinned = 0x7f070087;
+        public static final int pin_progress_pinned = 0x7f070088;
+        public static final int pin_progress_shadow = 0x7f070089;
+        public static final int pin_progress_unpinned = 0x7f07008a;
     }
     public static final class style {
         private style() {}
@@ -55,7 +55,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] ProgressButton = { 0x10100d4, 0x10100da, 0x10100e5, 0x7f030029, 0x7f03002a, 0x7f03002b, 0x7f03002c, 0x7f03007e, 0x7f03011c, 0x7f030181, 0x7f0301a0, 0x7f0301a1, 0x7f0301a8, 0x7f0301ac, 0x7f0301d5, 0x7f030253 };
+        public static final int[] ProgressButton = { 0x10100d4, 0x10100da, 0x10100e5, 0x7f030029, 0x7f03002a, 0x7f03002b, 0x7f03002c, 0x7f03007e, 0x7f030122, 0x7f030187, 0x7f0301a9, 0x7f0301aa, 0x7f0301b1, 0x7f0301b5, 0x7f0301df, 0x7f03025d };
         public static final int ProgressButton_android_background = 0;
         public static final int ProgressButton_android_focusable = 1;
         public static final int ProgressButton_android_clickable = 2;

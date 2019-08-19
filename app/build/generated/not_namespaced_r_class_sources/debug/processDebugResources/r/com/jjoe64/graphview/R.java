@@ -12,15 +12,15 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int seriesColor = 0x7f0301d1;
-        public static final int seriesData = 0x7f0301d2;
-        public static final int seriesTitle = 0x7f0301d3;
-        public static final int seriesType = 0x7f0301d4;
+        public static final int seriesColor = 0x7f0301db;
+        public static final int seriesData = 0x7f0301dc;
+        public static final int seriesTitle = 0x7f0301dd;
+        public static final int seriesType = 0x7f0301de;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] GraphViewXML = { 0x10101e1, 0x7f0301d1, 0x7f0301d2, 0x7f0301d3, 0x7f0301d4 };
+        public static final int[] GraphViewXML = { 0x10101e1, 0x7f0301db, 0x7f0301dc, 0x7f0301dd, 0x7f0301de };
         public static final int GraphViewXML_android_title = 0;
         public static final int GraphViewXML_seriesColor = 1;
         public static final int GraphViewXML_seriesData = 2;
