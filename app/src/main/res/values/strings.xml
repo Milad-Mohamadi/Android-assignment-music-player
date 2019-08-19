@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">EPlayer</string>
+  <string name="app_name">MOT</string>
   <string name="toast_success">Success</string>
   <string name="toast_error">Oh! an error occurred. Please try again.</string>
   <string name="toast_empty">This feature is not available yet!</string>

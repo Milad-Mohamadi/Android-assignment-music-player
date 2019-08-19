@@ -2,6 +2,7 @@ package ir.lococoder.eplayer.eplayer.home;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +20,9 @@ import ir.lococoder.eplayer.common.LRecyclerStruct;
 import ir.lococoder.eplayer.common.LWS;
 
 
+import static ir.lococoder.eplayer.common.Common.setImageAndCatch;
 import static ir.lococoder.eplayer.common.Common.setLog;
+import static ir.lococoder.eplayer.system.Config.URL_WS;
 
 
 public class MainActivity extends LAppCompatActivity {
@@ -27,6 +30,7 @@ public class MainActivity extends LAppCompatActivity {
   private Ui ui;
   private int color;
   RecyclerView recycler_music;
+  ImageView img_banner;
   public static JSONArray songs;
   public static Activity mainActivityObject;
   ArrayList<LRecyclerStruct> recyclerInformation;
@@ -44,6 +48,7 @@ public class MainActivity extends LAppCompatActivity {
 mainActivityObject=this;
     recycler_music=(RecyclerView)findViewById(R.id.recycler_music);
     recycler_music.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+    LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
       recyclerInformation = new ArrayList<>();
     getPodcastData();
   }
@@ -58,8 +63,7 @@ mainActivityObject=this;
     LWS lws = new LWS();
     JSONObject jsonObject = new JSONObject();
     lws
-//      .url("http://185.105.237.64:8787/api/mobile/PlayList/Get/1/20/0")
-      .url("https://pod.cor30.com/example")
+      .url(URL_WS)
       .inputArguments(jsonObject)
       .enableCache(false)
 
@@ -127,7 +131,7 @@ mainActivityObject=this;
 
                     recyclerInformation.add(new RecyclerInfo(title,album_title,song_source,pic_small,pic_radio,pic_big,pic_premium,pic_huge,lrclink,id,color,i,all_rate));
                     RecyclerAdapter recyclerAdapter = new RecyclerAdapter(MainActivity.this, recyclerInformation);
-                    recycler_music.setAdapter(recyclerAdapter);
+                  recycler_music.setAdapter(recyclerAdapter);
 
                   }
                   JSONObject billboars = new JSONObject(billboard);
@@ -148,9 +152,9 @@ mainActivityObject=this;
                     String bg_color=billboars.getString("bg_color");
                     String bg_pic=billboars.getString("bg_pic");
                     String id=billboars.getString("id");
+setImageAndCatch(MainActivity.this,pic_s640,img_banner,R.color.colorPrimary,1000,0f);
 
-
-
+              ;
 
 
                 } catch (JSONException e1) {

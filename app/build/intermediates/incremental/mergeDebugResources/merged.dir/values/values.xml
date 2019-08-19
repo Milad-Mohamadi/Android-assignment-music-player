@@ -227,13 +227,15 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="duskYellow">#00ffff</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="ic_launcher_background">#26A69A</color>
+    <color name="lightGrey">#FFFF00</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -600,7 +602,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">EPlayer</string>
+    <string name="app_name">MOT</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -677,7 +679,7 @@
     <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
   </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    
+    <!-- Customize your theme here. -->
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
@@ -2274,6 +2276,9 @@
         <item name="android:button">@null</item>
         <item name="android:paddingLeft">5dp</item>
         <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="RatingBar" parent="@style/Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlActivated">@color/lightGrey</item>
     </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>

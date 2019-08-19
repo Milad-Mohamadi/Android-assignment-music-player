@@ -740,6 +740,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color duskYellow
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -747,6 +748,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color lightGrey
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1238,11 +1240,13 @@ drawable pin_progress_shadow
 drawable pin_progress_unpinned
 drawable radio_checked
 drawable radio_unchecked
+drawable shape_border_baner
 drawable shape_navigation_player
 drawable shape_seekbar_progress
 drawable shape_toast
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable ui_bennr
 drawable ui_star_empty
 drawable ui_star_filled
 id ALT
@@ -1340,8 +1344,10 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id imageView28
 id img_back
+id img_baner
 id img_comment
 id img_cover_background
 id img_download
@@ -1407,6 +1413,7 @@ id right
 id right_icon
 id right_side
 id root
+id rootImage
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1560,6 +1567,7 @@ layout bit_player_button
 layout bit_player_parent
 layout bit_player_viewpager
 layout book_loading
+layout cell_baner_reqtangle
 layout cell_list_music
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1601,6 +1609,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -1906,6 +1915,7 @@ style ProgressButton
 style ProgressButton_Pin
 style ProgressButton_Pin_Compat
 style RadioButton
+style RatingBar
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon

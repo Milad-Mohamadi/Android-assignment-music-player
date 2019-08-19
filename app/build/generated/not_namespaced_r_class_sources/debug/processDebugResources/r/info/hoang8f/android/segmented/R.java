@@ -20,8 +20,8 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int radio_button_selected_color = 0x7f05008c;
-        public static final int radio_button_unselected_color = 0x7f05008d;
+        public static final int radio_button_selected_color = 0x7f05008e;
+        public static final int radio_button_unselected_color = 0x7f05008f;
     }
     public static final class dimen {
         private dimen() {}

@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/size05"
+        android:layout_marginBottom="@dimen/size05"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -97,7 +98,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/size05"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="gone">
 
         <ir.lococoder.eplayer.system.fonts.Light
             android:id="@+id/textView"

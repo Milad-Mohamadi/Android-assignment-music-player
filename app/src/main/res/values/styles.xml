@@ -7,5 +7,11 @@
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
   </style>
+    <style name="RatingBar" parent="@style/Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlActivated">@color/lightGrey</item>
+    </style>
+        <!--<item name="colorControlNormal">@color/duskYellow</item>-->
 
+  <color name="duskYellow">#00ffff</color>
+  <color name="lightGrey">#FFFF00</color>
 </resources>
