@@ -91,7 +91,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
           @Override
           public void onClick(View view) {
             Intent intent = new Intent(activity, PlayerActivity.class);
-//            intent.putExtra("feed", value_item.url);
+            intent.putExtra("position", value_item.position);
 //            intent.putExtra("position", value_item.position);
 //            intent.putExtra("playCount", value_item.playCount);
 //            intent.putExtra("guid", value_item.guid);

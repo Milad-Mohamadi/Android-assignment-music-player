@@ -1,5 +1,6 @@
 package ir.lococoder.eplayer.eplayer.home;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 import org.json.JSONArray;
@@ -26,6 +27,8 @@ public class MainActivity extends LAppCompatActivity {
   private Ui ui;
   private int color;
   RecyclerView recycler_music;
+  public static JSONArray songs;
+  public static Activity mainActivityObject;
   ArrayList<LRecyclerStruct> recyclerInformation;
 
   @Override
@@ -38,7 +41,7 @@ public class MainActivity extends LAppCompatActivity {
       .contentView(R.layout.activity_main)
       .requestFeatures()
       .build();
-
+mainActivityObject=this;
     recycler_music=(RecyclerView)findViewById(R.id.recycler_music);
     recycler_music.setLayoutManager(new LinearLayoutManager(MainActivity.this));
       recyclerInformation = new ArrayList<>();
@@ -75,7 +78,7 @@ public class MainActivity extends LAppCompatActivity {
 
 
                 try {
-                  JSONArray songs = new JSONArray(song_list);
+                   songs = new JSONArray(song_list);
                   for(int i=0;i<songs.length();i++){
 
                   color = i % 2 == 0 ? R.color.colorBackgroundRecyclerLight : R.color.colorBackgroundRecyclerDark;
@@ -122,7 +125,7 @@ public class MainActivity extends LAppCompatActivity {
                     int id=Integer.parseInt(song.getString("id"));
 
 
-                    recyclerInformation.add(new RecyclerInfo(title,album_title,song_source,pic_small,pic_radio,pic_big,pic_premium,pic_huge,lrclink,id,color));
+                    recyclerInformation.add(new RecyclerInfo(title,album_title,song_source,pic_small,pic_radio,pic_big,pic_premium,pic_huge,lrclink,id,color,i));
                     RecyclerAdapter recyclerAdapter = new RecyclerAdapter(MainActivity.this, recyclerInformation);
                     recycler_music.setAdapter(recyclerAdapter);
 
