@@ -125,7 +125,7 @@ mainActivityObject=this;
                     int id=Integer.parseInt(song.getString("id"));
 
 
-                    recyclerInformation.add(new RecyclerInfo(title,album_title,song_source,pic_small,pic_radio,pic_big,pic_premium,pic_huge,lrclink,id,color,i));
+                    recyclerInformation.add(new RecyclerInfo(title,album_title,song_source,pic_small,pic_radio,pic_big,pic_premium,pic_huge,lrclink,id,color,i,all_rate));
                     RecyclerAdapter recyclerAdapter = new RecyclerAdapter(MainActivity.this, recyclerInformation);
                     recycler_music.setAdapter(recyclerAdapter);
 

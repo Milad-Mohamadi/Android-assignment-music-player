@@ -156,19 +156,21 @@
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="01"/>
+                android:layout_weight="2"/>
 
             <RatingBar
                 android:id="@+id/ratingBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:max="5"
+                android:rating="3"
                 />
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="01"/>
+                android:layout_weight="2"/>
 
         </LinearLayout>
 

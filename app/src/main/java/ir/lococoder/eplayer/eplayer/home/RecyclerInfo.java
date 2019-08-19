@@ -18,11 +18,12 @@ class RecyclerInfo extends LRecyclerStruct {
   String premiumPic;
   String hugePic;
   String lrclink;
+  String all_rate;
   int id;
   int position;
   int  color;
   WebView justifyView;
-  public RecyclerInfo(String title, String description,String url, String smallPic, String radioPic, String bigPic, String premiumPic, String hugePic, String lrclink, int id, int color,int position) {
+  public RecyclerInfo(String title, String description,String url, String smallPic, String radioPic, String bigPic, String premiumPic, String hugePic, String lrclink, int id, int color,int position,String all_rate) {
     this.cellType = RecyclerAdapter.TYPE_EPISODE;
     this.title=title;
     this.description=description;
@@ -36,5 +37,6 @@ class RecyclerInfo extends LRecyclerStruct {
     this.lrclink=  lrclink;
     this.id=id;
     this.position=position;
+    this.all_rate=all_rate;
   }
 }

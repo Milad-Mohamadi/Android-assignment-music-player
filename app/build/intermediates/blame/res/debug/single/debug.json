@@ -80,6 +80,10 @@
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\4002924cd5012f2bb322d9791d4cd632\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\dev\\workspace\\EPlayer\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
         "merged": "C:\\dev\\workspace\\EPlayer\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\locoCoder\\.gradle\\caches\\transforms-2\\files-2.1\\9af2c20e315f8e4b3f95d9d63d7c49b6\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
